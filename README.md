@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Skylab-Clone" src="https://ik.imagekit.io/hwyksvj4iv/gorestaurant_soSmYKHra.svg" width="250px" />
+    <img alt="GoRestaurant" src="https://ik.imagekit.io/hwyksvj4iv/gorestaurant_soSmYKHra.svg" width="250px" />
 </h1>
 
 <p align="center">
@@ -19,9 +19,7 @@
 ## :page_with_curl: Sobre
 Este repositório contém uma aplicação em ReactJS utilizando TypeScript.
 
-Essa é a aplicação clone do Skylab, a plataforma de aulas da [Rocketseat](https://rocketseat.com.br/). Fiz o clone de apenas algumas telas da plataforma, como o listagem de cursos, listagem de aulas do curso Starter, dashboard do curso GoStack e a listagem de aulas do curso GoStack.
-
-Nesse projeto tive o objetivo de aprimorar minhas habilidades em construção de interfaces e layouts responsivos ultilizando a biblioteca styled-components. Outra biblioteca muito utilizada foi a Skeleton, para efeitos de carregamento enquanto uma requisição a API fake é feita. 
+Essa é a aplicação GoRestaurant, de gestão de comidas italianas. Nele o usuário é capaz de visualizar todos seus pratos cadatrados, bem como cadastrar novos pratos, editar e deletar pratos existentes.
 
 ## :hammer: Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -31,10 +29,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
 - [Axios](https://github.com/axios/axios)
 - [Styled Components](https://styled-components.com/)
+- [Unform](https://unform.dev/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [React Icons](https://www.npmjs.com/package/react-icons)
-- [Skeleton Loading](https://www.npmjs.com/package/react-loading-skeleton)
+- [React Modal](https://www.npmjs.com/package/react-modal)
 - [Polished](https://www.npmjs.com/package/polished)
+- [Yup](https://github.com/jquense/yup)
 
 ## :books: Requisitos
 - Ter [**Git**](https://git-scm.com/) para clonar o projeto.
@@ -43,10 +43,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## :rocket: Começando
 ``` bash
   # Clonar o projeto:
-  $ git clone https://github.com/MatheusPires99/skylab-clone
+  $ https://github.com/MatheusPires99/gorestaurant.git
 
   # Entrar no diretório:
-  $ cd skylab-clone/frontend
+  $ cd gorestaurant
 ```
 
 ## :gear: Iniciando server
@@ -58,10 +58,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   ```bash 
     json-server server.json -p 3333
   ````
-  - https://my-json-server.typicode.com/MatheusPires99/skylab-clone -> Caso queria usar o meu server.
+  - https://my-json-server.typicode.com/MatheusPires99/gorestaurant -> Caso queria usar o meu server.
 
-## :computer: Iniciando front-end
+## :computer: Iniciando front-end web
 ```bash
+  # Acessar no diretório da aplicação web:
+  $ cd web
+
   # Instalar as dependências:
   $ yarn
 
