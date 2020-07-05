@@ -6,14 +6,15 @@
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-iniciando-front-end">ReactJS</a>
+  <a href="#gear-iniciando-front-end">ReactJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-iniciando-mobile">React Native</a>
 </>
 
 <p align="center">
   <img alt="GoRestaurant" src="https://res.cloudinary.com/matheuspires/image/upload/v1591148018/gorestaurant_qczwwa.gif" />
   <br />
   <br />
-  <a href="https://gorestaurant.netlify.app">Demo da aplicação</a>
+  <a href="https://gorestaurant.netlify.app">Demo da aplicação Web</a>
 </p>
 
 ## :page_with_curl: Sobre
@@ -70,6 +71,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
   # Rodar a aplicação:
   $ yarn start
+```
+
+## :iphone: Iniciando mobile
+```bash
+  # Entrar no diretório do mobile:
+  $ cd mobile
+
+  # Instalar as dependências:
+  $ yarn
+
+  # Rodar a aplicação:
+  $ yarn ios ou yarn android 
 ```
 
 Feito com ❤️ por Matheus Pires 👋🏻 [Get in touch!](https://github.com/MatheusPires99)
